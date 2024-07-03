@@ -1,6 +1,6 @@
 # Google Style Guides
 
-- [Backend Lisp Style Guide][backend]
+- [Backend Style Guide][backend]
 - [Frontend Style Guide][frontend]
 
 [backend]: https://google.github.io/styleguide/backend
