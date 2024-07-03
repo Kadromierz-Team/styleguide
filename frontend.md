@@ -25,19 +25,19 @@ Poniżej wypisane są komponenty, widoki oraz funkcjonalności, które kiedyś b
 
 <a id="s2.1-indexed-access-types"></a>
 
+### 2.1 Indexed Access Types
+
 Aby uniknąć tworzenia wielu nazw dla typów oraz unikania podstawowych typów dla obiektów, które są wielokrotnie używane należy stosować index access types, np:
 
 ```typescript
 date: EmploymentConditions['hire_date'],
 ```
 
-### 2.1 Indexed Access Types
-
-W przypadku tworzenia typu dla obiektu, który ma wiele wspólnych pól już z istniejącym typem należy używać Pick, np:
-
 <a id="s2.2-pick"></a>
 
 ### 2.2 Pick
+
+W przypadku tworzenia typu dla obiektu, który ma wiele wspólnych pól już z istniejącym typem należy używać Pick, np:
 
 ```typescript
 type X = {
@@ -64,5 +64,5 @@ export type Y = {
 
 Niektóre typy pomimo, że nazwę mają podobną mogą różnić się strukturą, np.:
 
-- UserEmployee !== Employee
+- `UserEmployee !== Employee`
 - Warunki zatrudnienia dla Employee nie mają takiej samej struktury jak pojedynczy obiekt z employmentConditions
