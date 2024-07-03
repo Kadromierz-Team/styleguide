@@ -1,4 +1,4 @@
-# Google Style Guides
+# Kadromierz Style Guides
 
 - [Backend Style Guide][backend]
 - [Frontend Style Guide][frontend]
