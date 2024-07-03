@@ -3,5 +3,5 @@
 - [Backend Style Guide][backend]
 - [Frontend Style Guide][frontend]
 
-[backend]: https://google.github.io/styleguide/backend
-[frontend]: https://google.github.io/styleguide/frontend
+[backend]: https://kadromierz.github.io/styleguide/backend
+[frontend]: https://kadromierz.github.io/styleguide/frontend
